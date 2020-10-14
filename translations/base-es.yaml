@@ -19,11 +19,11 @@ steamPage:
         - <b>12 nuevos niveles</b> de un total de 26 niveles
         - <b>18 nuevos edificios</b> ¡para una fábrica totalmente automatizada!
         - <b>20 Upgrade Tiers</b> for many hours of fun!
-        - <b>Wires Update</b> for an entirely new dimension!
+        - <b>Actualización de cables</b> ¡Una dimensión completamente nueva!
         - <b>Modo oscuro</b>!
         - Partidad guardadas ilimitadas
         - Marcadores ilimitados
-        - Me apoyarás! ❤️
+        - ¡Apóyame! ❤️
     title_future: Contenido futuro
     planned:
         - Librería de planos (Exclusivo de Standalone)
@@ -166,7 +166,7 @@ dialogs:
         desc: ¡Estás cortando muchos edificios (<count> para ser exactos)! ¿Estas seguro
             de que quieres hacer esto?
     massCutInsufficientConfirm:
-        title: Confirm cut
+        title: Confirmar corte
         desc: ¡No puedes permitirte pegar este área! ¿Estás seguro de que quieres
             cortarlo?
     blueprintsNotUnlocked:
@@ -258,7 +258,7 @@ ingame:
     notifications:
         newUpgrade: ¡Una nueva mejora está disponible!
         gameSaved: Se ha guardado la partida.
-        freeplayLevelComplete: Level <level> has been completed!
+        freeplayLevelComplete: ¡Nivel <level> completado!
     shop:
         title: Mejoras
         buttonUnlock: Mejorar
@@ -321,8 +321,8 @@ ingame:
             2_1_place_cutter: "¡Ahora pon un <strong>Cortador</strong> para dividir los circulos en dos
                 mitades!<br><br> PD: El cortador siempre corta de <strong>de arriba a
                 abajo</strong> independientemente de su orientación."
-            2_2_place_trash: ¡El cortador se puede <strong>tabar y atorar</strong>!<br><br> Usa un
-                <strong>basurero</strong> para deshacerse de la actualmente (!) no
+            2_2_place_trash: ¡El cortador se puede <strong>trabar y atorar</strong>!<br><br> Usa un
+                <strong>basurero</strong> para deshacerse de la, actualmente (!), no
                 necesitada basura.
             2_3_more_cutters: "¡Buen trabajo! ¡Ahora pon <strong>2 cortadores más</strong> para acelerar
                 este lento proceso!<br><br> PD: Usa las teclas <strong>0-9
@@ -330,29 +330,29 @@ ingame:
             3_1_rectangles: "¡Ahora consigamos unos rectangulos! <strong>construye 4
                 extractores</strong> y conectalos a el edificio central.<br><br> PD:
                 Manten apretado <strong>SHIFT</strong> mientrás pones cintas transportadoras para activar
-                el planeador de cintas!"
-            21_1_place_quad_painter: ¡Pon el <strong>pintaor cuadruple</strong> y consigue unos
+                el planificador de cintas!"
+            21_1_place_quad_painter: ¡Pon el <strong>pintor cuádruple</strong> y consigue unos
                 <strong>circulos</strong>, el color <strong>blanco</strong> y el color
                 <strong>rojo</strong>!
             21_2_switch_to_wires: ¡Cambia a la capa de cables apretando la técla
                 <strong>E</strong>!<br><br> Luego <strong>conecta las cuatro
-                entradas</strong> de el pintador con cables!
+                entradas</strong> del pintor con cables!
             21_3_place_button: ¡Genial! ¡Ahora pon un <strong>Interruptor</strong> y conectalo
                 con cables!
-            21_4_press_button: "Presioa el interruptor para hacer que <strong>emita una señal
-                verdadera</strong> lo cual activa el piintador.<br><br> PD: ¡No necesitas
+            21_4_press_button: "Presiona el interruptor para hacer que <strong>emita una señal
+                verdadera</strong> lo cual activa el pintador.<br><br> PD: ¡No necesitas
                 conectar todas las entradas! Intenta conectando solo dos."
     connectedMiners:
-        one_miner: 1 Minero
-        n_miners: <amount> Mineros
+        one_miner: 1 Extractor
+        n_miners: <amount> Extractores
         limited_items: Limitado a <max_throughput>
     watermark:
         title: Versión demo
         desc: Presiona aquí para ver que tiene la versión de Steam!
-        get_on_steam: Consiguelo en Steam
+        get_on_steam: Consíguelo en Steam
     standaloneAdvantages:
         title: ¡Consigue la versión completa!
-        no_thanks: ¡No grácias!
+        no_thanks: ¡No gracias!
         points:
             levels:
                 title: 12 nuevos niveles
@@ -371,12 +371,12 @@ ingame:
                 desc: ¡Nunca te pierdas en tu propia fabrica!
             wires:
                 title: Cables
-                desc: ¡Una dimension completamente nueva!
+                desc: ¡Una dimensión completamente nueva!
             darkmode:
                 title: Modo oscuro
                 desc: ¡Deja de lastimar tus ojos!
             support:
-                title: Apoyame
+                title: Apóyame
                 desc: ¡Desarrollo este juego en mi tiempo libre!
 shopUpgrades:
     belt:
@@ -396,7 +396,7 @@ buildings:
         deliver: Entregar
         toUnlock: para desbloquear
         levelShortcut: LVL
-        endOfDemo: End of Demo
+        endOfDemo: Fin de la versión Demo
     belt:
         default:
             name: Cinta Transportadora
@@ -421,16 +421,16 @@ buildings:
     underground_belt:
         default:
             name: Túnel
-            description: Permite contruir un túnel para transportar los elementos por debajo
+            description: Permite construir un túnel para transportar los elementos por debajo
                 de edificios y otras cintas transportadoras.
         tier2:
             name: Túnel nivel II
-            description: Permite contruir un túnel para transportar los elementos por debajo
+            description: Permite construir un túnel para transportar los elementos por debajo
                 de edificios y otras cintas transportadoras.
     cutter:
         default:
             name: Cortador
-            description: Corta las figuras de arriba abajo y saca ambas mitades. <strong>
+            description: Corta las figuras de arriba a abajo y saca ambas mitades. <strong>
                 ¡Si solo usas una parte, asegúrate de destruir la otra parte o
                 se parará!</strong>
         quad:
@@ -446,7 +446,7 @@ buildings:
             description: Rota las figuras en sentido antihorario 90 grados.
         rotate180:
             name: Rotador (180)
-            description: Rota formas en 180 grados.
+            description: Rota las figuras en 180 grados.
     stacker:
         default:
             name: Apilador
@@ -515,29 +515,28 @@ buildings:
     logic_gate:
         default:
             name: Puerta AND
-            description: Emite el valor booleano "1" si ambas entradas son verdaderas. (Verdadeas significa una forma,
+            description: Emite el valor booleano "1" si ambas entradas son verdaderas. (Verdaderas significa una forma,
                 color o valor booleano "1")
         not:
             name: Puerta NOT
-            description: Emite el valor booleano "1" si ambas entradas no son verdaderas. (Verdadeas significa una forma,
+            description: Emite el valor booleano "1" si la entrada no es verdadera. (Verdadera significa una forma,
                 color o valor booleano "1")
         xor:
             name: Puerta XOR
-            description: Emite el valor booleano "1" si una de las entradas es verdadera, pero no si ambas lo son.
-                (Verdadeas significa una forma,
-                color o valor booleano "1")
+            description: Emite el valor booleano "1" si una de las entradas es diferente de la otra, pero no si ambas son iguales.
+                (Verdaderas significa una forma, color o valor booleano "1")
         or:
             name: Puerta OR
-            description: Emite el valor booleano "1" Si una de las entradas es verdadera. (Verdadeas significa una forma,
+            description: Emite el valor booleano "1" Si cualquiera de las entradas es verdadera. (Verdadeas significa una forma,
                 color o valor booleano "1")
     transistor:
         default:
             name: Transistor
-            description: Envia la señal de abajo si la señal del costado es verdadera (Verdadeas significa una forma,
+            description: Envia la señal de abajo si la señal del costado es verdadera (Verdadera significa una forma,
                 color o valor booleano "1").
         mirrored:
             name: Transistor
-            description: Envia la señal de abajo si la señal del costado es verdadera (Verdadeas significa una forma,
+            description: Envia la señal de abajo si la señal del costado es verdadera (Verdadera significa una forma,
                 color o valor booleano "1").
     filter:
         default:
